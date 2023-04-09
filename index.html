@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+	<html lang="fr">
+		<head>
+			<meta charset="utf-8">
+			<title>page tah le site</title>
+		</head>
+		<body>
+			<form action="http://localhost:12131/resultat" method="get">
+				<label>ton Nom</label> : <input type="texte" name="nom" />
+				<label>ton Prénom</label> : <input type="texte" name="prenom" />
+				<input type="submit" value="Envoyer" />
+			</form>
+
+			<br>	
+
+			<form action="http://localhost:12131/tableau" method="post" >
+			<label>entre ton nom</label> : <input type="texte" name="nom">
+			<label>entre ton prénom</label> : <input type="texte" name="prenom">
+			<label>entre ton âge</label> : <input type="texte" name="age">
+			<input type="submit" value="version tableau">
+
+			</form>
+			
+			<br>
+
+			<form action="http://localhost:12131/lovemachine" method="post" >
+			<label>Mari</label> : <input type="texte" name="mari">
+			<label>Femme</label> : <input type="texte" name="femme">
+			<input type="submit" value="compatibilité amoureuse">	
+
+			</form>
+
+			<br>
+
+			<form action="http://localhost:12131/apprentissage" method="post" >
+				<input type="submit" value="apprentissage html">
+			</form>
+		</body>
+</html>
